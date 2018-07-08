@@ -1,0 +1,197 @@
+
+<style type="text/css">@import "font-awesome.min.css";
+@import "font-awesome-ie7.min.css";
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+.well{
+  font-family: 'Kanit', sans-serif;
+}
+
+.textsize{
+	font-size: 150%;
+}
+.textsize1{
+	font-size: 120%;
+}
+</style>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+
+<div class="container">
+    <h1 class="well">แบบรายงานการเกิดอุบัติเหตุ/อุบัติการณ์</h1>
+	<div class="col-lg-12 well">
+	<div class="row">
+				 <form action="FR-HY-2001.php" method="post">
+					<div class="col-sm-12">
+						<div class="row">
+							<div class="col-sm-12 form-group">
+								<label class="textsize">เรียน</label>
+								<input type="text" class="form-control">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12 form-group">
+								<label class="textsize">วันที่</label>
+								<input type="text" class="form-control">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-4 form-group">
+								<label class="textsize">ชื่อ</label>
+								<input type="text" class="form-control">
+							</div>
+							<div class="col-sm-4 form-group">
+								<label class="textsize">ตำแหน่ง</label>
+								<input type="text" class="form-control">
+							</div>
+							<div class="col-sm-4 form-group">
+								<label class="textsize">สังกัด</label>
+								<input type="text" class="form-control">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-4 form-group">
+								<label class="textsize">หมายเลขโทรศัพท์</label>
+								<input type="text" class="form-control">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-4 form-group">
+								<label class="textsize">วันที่เกิดเหตุ</label>
+								<input type="text" class="form-control">
+							</div>
+							<div class="col-sm-4 form-group">
+								<label class="textsize">เวลาเกิดเหตุ</label>
+								<input type="text" class="form-control">
+							</div>
+							<div class="col-sm-4 form-group">
+								<label class="textsize">สถานที่</label>
+								<input type="text" class="form-control">
+							</div>
+						</div>			
+						<div class="form-group">
+							<label class="textsize">อธิบายเหตุการณ์</label>
+							<textarea   rows="3" class="form-control"></textarea>
+						</div>
+						<div class="row">
+							<div class="col-sm-6 form-group">
+								<label class="textsize">บุคคลบาดเจ็บ (คน)</label>
+								<input type="text" class="form-control">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-6 form-group">
+								<label class="textsize1">ทรัพย์สินเสียหายมีมูลค่าประมาณ</label>
+								<input type="text" class="form-control">
+							</div>
+							<div class="col-sm-6 form-group">
+								<label class="textsize1">กระบวนการผลิตสูญเสียมีมูลค่าประมาณ</label>
+								<input type="text" class="form-control">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-6 form-group">
+								<label class="textsize1">เกิดสภาพแวดล้อมที่ไม่ต้องการ</label>
+								<input type="text" class="form-control">
+							</div>
+							<div class="col-sm-6 form-group">
+								<label class="textsize1">อื่นๆ</label>
+								<input type="text" class="form-control">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="textsize">สิ่งที่ได้ดําเนินการไปแล้วขณะเกิดเหตุ</label>
+							<textarea   rows="3" class="form-control"></textarea>
+						</div>
+					<button type="submit" class="btn btn-primary" name="submit" value="click">Submit</button>
+					</div>
+				</form> 
+				</div>
+	</div>
+	</div>
+</body>
+</html>
